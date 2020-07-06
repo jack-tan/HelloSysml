@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_qI55YHMNEeqkAaz0mqOJog" name="Demo" metaclassReference="_AcAvEHMOEeqkAaz0mqOJog _yCpAUHMOEeqkAaz0mqOJog _x6WrYHMsEeqT-KT9j4SolQ">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3K3T0HMNEeqkAaz0mqOJog" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ab9EsHMOEeqkAaz0mqOJog" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ab9EsXMOEeqkAaz0mqOJog" key="Version" value="0.0.0"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ab9EsnMOEeqkAaz0mqOJog" key="Comment" value="&lt;undefined>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ab9Es3MOEeqkAaz0mqOJog" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ab9EtHMOEeqkAaz0mqOJog" key="Date" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ab9EtXMOEeqkAaz0mqOJog" key="Author" value="&lt;undefined>"/>
+    </eAnnotations>
+    <contents xmi:type="ecore:EPackage" xmi:id="_1SRukL-NEeqk1I1evsVzTQ" name="Demo" nsURI="http:///schemas/Demo/_1SDFEL-NEeqk1I1evsVzTQ/29" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SUx4b-NEeqk1I1evsVzTQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1SUx4r-NEeqk1I1evsVzTQ" key="Version" value="0.0.17"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1SUx47-NEeqk1I1evsVzTQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1SUx5L-NEeqk1I1evsVzTQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1SUx5b-NEeqk1I1evsVzTQ" key="Date" value="2020-07-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1SUx5r-NEeqk1I1evsVzTQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1SRukb-NEeqk1I1evsVzTQ" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SRukr-NEeqk1I1evsVzTQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1SRuk7-NEeqk1I1evsVzTQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1SRulb-NEeqk1I1evsVzTQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1SRul7-NEeqk1I1evsVzTQ" name="dog" ordered="false" lowerBound="1" eType="_1SRum7-NEeqk1I1evsVzTQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1SRumb-NEeqk1I1evsVzTQ" name="cat" ordered="false" lowerBound="1" eType="_1SRupr-NEeqk1I1evsVzTQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1SRum7-NEeqk1I1evsVzTQ" name="Dog" eSuperTypes="_1SRuor-NEeqk1I1evsVzTQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SRunL-NEeqk1I1evsVzTQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SRunb-NEeqk1I1evsVzTQ" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_1SRunr-NEeqk1I1evsVzTQ" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SRun7-NEeqk1I1evsVzTQ" source="redefines" references="_1SRupL-NEeqk1I1evsVzTQ"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1SRuor-NEeqk1I1evsVzTQ" name="Dog1">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SRuo7-NEeqk1I1evsVzTQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DjOcMHNREeqcfc7b4gNK6w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_1SRupL-NEeqk1I1evsVzTQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_1SRupr-NEeqk1I1evsVzTQ" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SRup7-NEeqk1I1evsVzTQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kJ6GYHNEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_1SRuqL-NEeqk1I1evsVzTQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_ZeQwIHXCEeqhgtg3PXRHrQ" name="Demo" nsURI="http:///schemas/Demo/_ZeNFwHXCEeqhgtg3PXRHrQ/28" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeSlU3XCEeqhgtg3PXRHrQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZeSlVHXCEeqhgtg3PXRHrQ" key="Version" value="0.0.16"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZeSlVXXCEeqhgtg3PXRHrQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZeSlVnXCEeqhgtg3PXRHrQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZeSlV3XCEeqhgtg3PXRHrQ" key="Date" value="2020-04-03"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZeSlWHXCEeqhgtg3PXRHrQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ZeQwIXXCEeqhgtg3PXRHrQ" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeQwInXCEeqhgtg3PXRHrQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ZeQwI3XCEeqhgtg3PXRHrQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ZeQwJXXCEeqhgtg3PXRHrQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ZeQwJ3XCEeqhgtg3PXRHrQ" name="dog" ordered="false" lowerBound="1" eType="_ZeQwK3XCEeqhgtg3PXRHrQ"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ZeQwKXXCEeqhgtg3PXRHrQ" name="cat" ordered="false" lowerBound="1" eType="_ZeQwNnXCEeqhgtg3PXRHrQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ZeQwK3XCEeqhgtg3PXRHrQ" name="Dog" eSuperTypes="_ZeQwMnXCEeqhgtg3PXRHrQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeQwLHXCEeqhgtg3PXRHrQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeQwLXXCEeqhgtg3PXRHrQ" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_ZeQwLnXCEeqhgtg3PXRHrQ" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeQwL3XCEeqhgtg3PXRHrQ" source="redefines" references="_ZeQwNHXCEeqhgtg3PXRHrQ"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ZeQwMnXCEeqhgtg3PXRHrQ" name="Dog1">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeQwM3XCEeqhgtg3PXRHrQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DjOcMHNREeqcfc7b4gNK6w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_ZeQwNHXCEeqhgtg3PXRHrQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_ZeQwNnXCEeqhgtg3PXRHrQ" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeQwN3XCEeqhgtg3PXRHrQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kJ6GYHNEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_ZeQwOHXCEeqhgtg3PXRHrQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Dnn5UHQoEeq4fZ3pJgkIuw" name="Demo" nsURI="http:///schemas/Demo/_Dnk2AHQoEeq4fZ3pJgkIuw/27" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DnpHdHQoEeq4fZ3pJgkIuw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DnpHdXQoEeq4fZ3pJgkIuw" key="Version" value="0.0.15"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DnpHdnQoEeq4fZ3pJgkIuw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DnpHd3QoEeq4fZ3pJgkIuw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DnpHeHQoEeq4fZ3pJgkIuw" key="Date" value="2020-04-01"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DnpHeXQoEeq4fZ3pJgkIuw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dnn5UXQoEeq4fZ3pJgkIuw" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dnn5UnQoEeq4fZ3pJgkIuw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dnn5U3QoEeq4fZ3pJgkIuw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dnn5VXQoEeq4fZ3pJgkIuw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dnn5V3QoEeq4fZ3pJgkIuw" name="dog" ordered="false" lowerBound="1" eType="_Dnn5W3QoEeq4fZ3pJgkIuw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dnn5WXQoEeq4fZ3pJgkIuw" name="cat" ordered="false" lowerBound="1" eType="_Dnn5ZnQoEeq4fZ3pJgkIuw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dnn5W3QoEeq4fZ3pJgkIuw" name="Dog" eSuperTypes="_Dnn5YnQoEeq4fZ3pJgkIuw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dnn5XHQoEeq4fZ3pJgkIuw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dnn5XXQoEeq4fZ3pJgkIuw" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_Dnn5XnQoEeq4fZ3pJgkIuw" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dnn5X3QoEeq4fZ3pJgkIuw" source="redefines" references="_Dnn5ZHQoEeq4fZ3pJgkIuw"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dnn5YnQoEeq4fZ3pJgkIuw" name="Dog1">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dnn5Y3QoEeq4fZ3pJgkIuw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DjOcMHNREeqcfc7b4gNK6w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Dnn5ZHQoEeq4fZ3pJgkIuw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Dnn5ZnQoEeq4fZ3pJgkIuw" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dnn5Z3QoEeq4fZ3pJgkIuw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kJ6GYHNEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Dnn5aHQoEeq4fZ3pJgkIuw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_v7MO8HP7EeqEbKDcvW9tog" name="Demo" nsURI="http:///schemas/Demo/_v7E6MHP7EeqEbKDcvW9tog/26" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7OrMHP7EeqEbKDcvW9tog" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v7OrMXP7EeqEbKDcvW9tog" key="Version" value="0.0.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v7OrMnP7EeqEbKDcvW9tog" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v7OrM3P7EeqEbKDcvW9tog" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v7OrNHP7EeqEbKDcvW9tog" key="Date" value="2020-04-01"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v7OrNXP7EeqEbKDcvW9tog" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7MO8XP7EeqEbKDcvW9tog" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7MO8nP7EeqEbKDcvW9tog" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_v7MO83P7EeqEbKDcvW9tog" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7MO9XP7EeqEbKDcvW9tog" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7MO93P7EeqEbKDcvW9tog" name="dog" ordered="false" lowerBound="1" eType="_v7MO-3P7EeqEbKDcvW9tog"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7MO-XP7EeqEbKDcvW9tog" name="cat" ordered="false" lowerBound="1" eType="_v7MPBnP7EeqEbKDcvW9tog"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7MO-3P7EeqEbKDcvW9tog" name="Dog" eSuperTypes="_v7MPAnP7EeqEbKDcvW9tog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7MO_HP7EeqEbKDcvW9tog" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7MO_XP7EeqEbKDcvW9tog" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_v7MO_nP7EeqEbKDcvW9tog" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7MO_3P7EeqEbKDcvW9tog" source="redefines" references="_v7MPBHP7EeqEbKDcvW9tog"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7MPAnP7EeqEbKDcvW9tog" name="Dog1">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7MPA3P7EeqEbKDcvW9tog" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DjOcMHNREeqcfc7b4gNK6w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_v7MPBHP7EeqEbKDcvW9tog" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_v7MPBnP7EeqEbKDcvW9tog" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7MPB3P7EeqEbKDcvW9tog" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kJ6GYHNEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_v7MPCHP7EeqEbKDcvW9tog" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_AJHQUHNSEeqcfc7b4gNK6w" name="Demo" nsURI="http:///schemas/Demo/_AJENAHNSEeqcfc7b4gNK6w/25" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJJskXNSEeqcfc7b4gNK6w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AJJsknNSEeqcfc7b4gNK6w" key="Version" value="0.0.13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AJJsk3NSEeqcfc7b4gNK6w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AJJslHNSEeqcfc7b4gNK6w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AJJslXNSEeqcfc7b4gNK6w" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AJJslnNSEeqcfc7b4gNK6w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_AJHQUXNSEeqcfc7b4gNK6w" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJHQUnNSEeqcfc7b4gNK6w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_AJHQU3NSEeqcfc7b4gNK6w" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_AJHQVXNSEeqcfc7b4gNK6w" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_AJHQV3NSEeqcfc7b4gNK6w" name="dog" ordered="false" lowerBound="1" eType="_AJHQW3NSEeqcfc7b4gNK6w"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_AJHQWXNSEeqcfc7b4gNK6w" name="cat" ordered="false" lowerBound="1" eType="_AJHQZnNSEeqcfc7b4gNK6w"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_AJHQW3NSEeqcfc7b4gNK6w" name="Dog" eSuperTypes="_AJHQYnNSEeqcfc7b4gNK6w">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJHQXHNSEeqcfc7b4gNK6w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJHQXXNSEeqcfc7b4gNK6w" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_AJHQXnNSEeqcfc7b4gNK6w" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJHQX3NSEeqcfc7b4gNK6w" source="redefines" references="_AJHQZHNSEeqcfc7b4gNK6w"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_AJHQYnNSEeqcfc7b4gNK6w" name="Dog1">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJHQY3NSEeqcfc7b4gNK6w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_DjOcMHNREeqcfc7b4gNK6w"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_AJHQZHNSEeqcfc7b4gNK6w" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_AJHQZnNSEeqcfc7b4gNK6w" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AJHQZ3NSEeqcfc7b4gNK6w" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kJ6GYHNEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_AJHQaHNSEeqcfc7b4gNK6w" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_9i8yQHNEEeqNy-_D6E1ehw" name="Demo" nsURI="http:///schemas/Demo/_9i8LMHNEEeqNy-_D6E1ehw/24" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9i-nc3NEEeqNy-_D6E1ehw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9i-ndHNEEeqNy-_D6E1ehw" key="Version" value="0.0.12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9i-ndXNEEeqNy-_D6E1ehw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9i-ndnNEEeqNy-_D6E1ehw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9i-nd3NEEeqNy-_D6E1ehw" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9i-neHNEEeqNy-_D6E1ehw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_9i8yQXNEEeqNy-_D6E1ehw" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9i8yQnNEEeqNy-_D6E1ehw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9i8yQ3NEEeqNy-_D6E1ehw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9i8yRXNEEeqNy-_D6E1ehw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9i8yR3NEEeqNy-_D6E1ehw" name="dog" ordered="false" lowerBound="1" eType="_9i8yS3NEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9i8ySXNEEeqNy-_D6E1ehw" name="cat" ordered="false" lowerBound="1" eType="_9i8yT3NEEeqNy-_D6E1ehw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_9i8yS3NEEeqNy-_D6E1ehw" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9i8yTHNEEeqNy-_D6E1ehw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_9i8yTXNEEeqNy-_D6E1ehw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_9i8yT3NEEeqNy-_D6E1ehw" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9i8yUHNEEeqNy-_D6E1ehw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kJ6GYHNEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9i8yUXNEEeqNy-_D6E1ehw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_tELSsHNEEeqNy-_D6E1ehw" name="Demo" nsURI="http:///schemas/Demo/_tEIPYHNEEeqNy-_D6E1ehw/23" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tENu8HNEEeqNy-_D6E1ehw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tENu8XNEEeqNy-_D6E1ehw" key="Version" value="0.0.11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tENu8nNEEeqNy-_D6E1ehw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tENu83NEEeqNy-_D6E1ehw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tENu9HNEEeqNy-_D6E1ehw" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tENu9XNEEeqNy-_D6E1ehw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tELSsXNEEeqNy-_D6E1ehw" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tELSsnNEEeqNy-_D6E1ehw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tELSs3NEEeqNy-_D6E1ehw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tELStXNEEeqNy-_D6E1ehw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tELSt3NEEeqNy-_D6E1ehw" name="dog" ordered="false" lowerBound="1" eType="_tELSu3NEEeqNy-_D6E1ehw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_tELSuXNEEeqNy-_D6E1ehw" name="cat" ordered="false" lowerBound="1" eType="_tELSv3NEEeqNy-_D6E1ehw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tELSu3NEEeqNy-_D6E1ehw" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tELSvHNEEeqNy-_D6E1ehw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_tELSvXNEEeqNy-_D6E1ehw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_tELSv3NEEeqNy-_D6E1ehw" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tELSwHNEEeqNy-_D6E1ehw" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_kJ6GYHNEEeqNy-_D6E1ehw"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_PsYSQHNEEeqb2LQwl_VsfA" name="Demo" nsURI="http:///schemas/Demo/_PsUn4HNEEeqb2LQwl_VsfA/22" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PsaugHNEEeqb2LQwl_VsfA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PsaugXNEEeqb2LQwl_VsfA" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PsaugnNEEeqb2LQwl_VsfA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Psaug3NEEeqb2LQwl_VsfA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PsauhHNEEeqb2LQwl_VsfA" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PsauhXNEEeqb2LQwl_VsfA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_PsY5UHNEEeqb2LQwl_VsfA" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PsY5UXNEEeqb2LQwl_VsfA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_PsY5UnNEEeqb2LQwl_VsfA" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_PsY5VHNEEeqb2LQwl_VsfA" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_PsY5VnNEEeqb2LQwl_VsfA" name="dog" ordered="false" lowerBound="1" eType="_PsY5WHNEEeqb2LQwl_VsfA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_PsY5WHNEEeqb2LQwl_VsfA" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PsY5WXNEEeqb2LQwl_VsfA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_PsY5WnNEEeqb2LQwl_VsfA" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_PsY5XHNEEeqb2LQwl_VsfA" name="Dog1" eSuperTypes="_PsY5WHNEEeqb2LQwl_VsfA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PsY5XXNEEeqb2LQwl_VsfA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PsY5XnNEEeqb2LQwl_VsfA" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_PsY5X3NEEeqb2LQwl_VsfA" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PsY5YHNEEeqb2LQwl_VsfA" source="redefines" references="_PsY5WnNEEeqb2LQwl_VsfA"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_PsY5Y3NEEeqb2LQwl_VsfA" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PsY5ZHNEEeqb2LQwl_VsfA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_PsY5ZXNEEeqb2LQwl_VsfA" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_6LOd8XNDEeqfluIfrMVc4g" name="Demo" nsURI="http:///schemas/Demo/_6LOd8HNDEeqfluIfrMVc4g/21" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6LPFA3NDEeqfluIfrMVc4g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6LPFBHNDEeqfluIfrMVc4g" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6LPFBXNDEeqfluIfrMVc4g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6LPFBnNDEeqfluIfrMVc4g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6LPFB3NDEeqfluIfrMVc4g" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6LPFCHNDEeqfluIfrMVc4g" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6LOd8nNDEeqfluIfrMVc4g" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6LOd83NDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6LOd9HNDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6LOd9nNDEeqfluIfrMVc4g" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6LOd-HNDEeqfluIfrMVc4g" name="dog" ordered="false" lowerBound="1" eType="_6LOd-nNDEeqfluIfrMVc4g"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6LOd-nNDEeqfluIfrMVc4g" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6LOd-3NDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6LOd_HNDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6LOd_nNDEeqfluIfrMVc4g" name="Dog1" eSuperTypes="_6LOd-nNDEeqfluIfrMVc4g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6LOd_3NDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6LOeAHNDEeqfluIfrMVc4g" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_6LOeAXNDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6LOeAnNDEeqfluIfrMVc4g" source="redefines" references="_6LOd_HNDEeqfluIfrMVc4g"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6LOeBXNDEeqfluIfrMVc4g" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6LOeBnNDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6LOeB3NDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_yIbsMXNDEeqfluIfrMVc4g" name="Demo" nsURI="http:///schemas/Demo/_yIbsMHNDEeqfluIfrMVc4g/20" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIdhY3NDEeqfluIfrMVc4g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIdhZHNDEeqfluIfrMVc4g" key="Version" value="0.0.8"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIdhZXNDEeqfluIfrMVc4g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIdhZnNDEeqfluIfrMVc4g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIdhZ3NDEeqfluIfrMVc4g" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yIdhaHNDEeqfluIfrMVc4g" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yIbsMnNDEeqfluIfrMVc4g" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIbsM3NDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yIbsNHNDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_yIbsNnNDEeqfluIfrMVc4g" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_yIbsOHNDEeqfluIfrMVc4g" name="dog" ordered="false" lowerBound="1" eType="_yIbsOnNDEeqfluIfrMVc4g"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yIbsOnNDEeqfluIfrMVc4g" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIbsO3NDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yIbsPHNDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yIbsPnNDEeqfluIfrMVc4g" name="Dog1" eSuperTypes="_yIbsOnNDEeqfluIfrMVc4g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIbsP3NDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIbsQHNDEeqfluIfrMVc4g" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_yIbsQXNDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIbsQnNDEeqfluIfrMVc4g" source="redefines" references="_yIbsPHNDEeqfluIfrMVc4g"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yIbsRXNDEeqfluIfrMVc4g" name="Cat">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yIbsRnNDEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_yIbsR3NDEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_KzfLUXMxEeqfluIfrMVc4g" name="Demo" nsURI="http:///schemas/Demo/_KzfLUHMxEeqfluIfrMVc4g/19" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzfyYnMxEeqfluIfrMVc4g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KzfyY3MxEeqfluIfrMVc4g" key="Version" value="0.0.7"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KzfyZHMxEeqfluIfrMVc4g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KzfyZXMxEeqfluIfrMVc4g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KzfyZnMxEeqfluIfrMVc4g" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KzfyZ3MxEeqfluIfrMVc4g" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KzfLUnMxEeqfluIfrMVc4g" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzfLU3MxEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ovwnQHMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KzfLVHMxEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_KzfLVnMxEeqfluIfrMVc4g" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_KzfLWHMxEeqfluIfrMVc4g" name="dog" ordered="false" lowerBound="1" eType="_KzfLWnMxEeqfluIfrMVc4g"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KzfLWnMxEeqfluIfrMVc4g" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzfLW3MxEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_z5ps0HMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KzfLXHMxEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KzfLXnMxEeqfluIfrMVc4g" name="Dog1" eSuperTypes="_KzfLWnMxEeqfluIfrMVc4g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzfLX3MxEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzfLYHMxEeqfluIfrMVc4g" source="duplicates">
+          <contents xmi:type="ecore:EAttribute" xmi:id="_KzfLYXMxEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KzfLYnMxEeqfluIfrMVc4g" source="redefines" references="_KzfLXHMxEeqfluIfrMVc4g"/>
+            <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+          </contents>
+        </eAnnotations>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_m_eVYXMwEeqfluIfrMVc4g" name="Demo" nsURI="http:///schemas/Demo/_m_eVYHMwEeqfluIfrMVc4g/18" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m_e8cnMwEeqfluIfrMVc4g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m_e8c3MwEeqfluIfrMVc4g" key="Version" value="0.0.6"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m_e8dHMwEeqfluIfrMVc4g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m_e8dXMwEeqfluIfrMVc4g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m_e8dnMwEeqfluIfrMVc4g" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m_e8d3MwEeqfluIfrMVc4g" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_m_eVYnMwEeqfluIfrMVc4g" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m_eVY3MwEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_m_eVZHMwEeqfluIfrMVc4g" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_m_eVZnMwEeqfluIfrMVc4g" name="dog" ordered="false" lowerBound="1" eType="_m_eVanMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m_eVaHMwEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_m_eVanMwEeqfluIfrMVc4g" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m_eVa3MwEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_m_eVbHMwEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_imyd4XMwEeqfluIfrMVc4g" name="Demo" nsURI="http:///schemas/Demo/_imyd4HMwEeqfluIfrMVc4g/17" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imzE8nMwEeqfluIfrMVc4g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imzE83MwEeqfluIfrMVc4g" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imzE9HMwEeqfluIfrMVc4g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imzE9XMwEeqfluIfrMVc4g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imzE9nMwEeqfluIfrMVc4g" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_imzE93MwEeqfluIfrMVc4g" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_imyd4nMwEeqfluIfrMVc4g" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imyd43MwEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_imyd5HMwEeqfluIfrMVc4g" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_imyd5nMwEeqfluIfrMVc4g" name="dog" ordered="false" lowerBound="1" eType="_imyd6nMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_imyd6HMwEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_imyd6nMwEeqfluIfrMVc4g" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_imyd63MwEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_imyd7HMwEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_emi7kHMwEeqfluIfrMVc4g" name="Demo" nsURI="http:///schemas/Demo/_emgfUHMwEeqfluIfrMVc4g/16" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_emkwwHMwEeqfluIfrMVc4g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_emkwwXMwEeqfluIfrMVc4g" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_emkwwnMwEeqfluIfrMVc4g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_emkww3MwEeqfluIfrMVc4g" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_emkwxHMwEeqfluIfrMVc4g" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_emkwxXMwEeqfluIfrMVc4g" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_emi7kXMwEeqfluIfrMVc4g" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_emi7knMwEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_emi7k3MwEeqfluIfrMVc4g" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_emi7lXMwEeqfluIfrMVc4g" name="dog" ordered="false" lowerBound="1" eType="_emi7mXMwEeqfluIfrMVc4g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_emi7l3MwEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_emi7mXMwEeqfluIfrMVc4g" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_emi7mnMwEeqfluIfrMVc4g" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_emi7m3MwEeqfluIfrMVc4g" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_EYt8wHMwEeqT-KT9j4SolQ" name="Demo" nsURI="http:///schemas/Demo/_EYtVsHMwEeqT-KT9j4SolQ/15" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EYt8z3MwEeqT-KT9j4SolQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EYt80HMwEeqT-KT9j4SolQ" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EYt80XMwEeqT-KT9j4SolQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EYt80nMwEeqT-KT9j4SolQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EYt803MwEeqT-KT9j4SolQ" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EYt81HMwEeqT-KT9j4SolQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_EYt8wXMwEeqT-KT9j4SolQ" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EYt8wnMwEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_EYt8w3MwEeqT-KT9j4SolQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_EYt8xXMwEeqT-KT9j4SolQ" name="dog" ordered="false" lowerBound="1" eType="_EYt8yXMwEeqT-KT9j4SolQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EYt8x3MwEeqT-KT9j4SolQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_EYt8yXMwEeqT-KT9j4SolQ" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EYt8ynMwEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EYt8y3MwEeqT-KT9j4SolQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_cnKlIHMtEeqT-KT9j4SolQ" name="Demo" nsURI="http:///schemas/Demo/_cnJ-EHMtEeqT-KT9j4SolQ/14" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cnKlL3MtEeqT-KT9j4SolQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cnKlMHMtEeqT-KT9j4SolQ" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cnKlMXMtEeqT-KT9j4SolQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cnKlMnMtEeqT-KT9j4SolQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cnKlM3MtEeqT-KT9j4SolQ" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cnKlNHMtEeqT-KT9j4SolQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_cnKlIXMtEeqT-KT9j4SolQ" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cnKlInMtEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_cnKlI3MtEeqT-KT9j4SolQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_cnKlJXMtEeqT-KT9j4SolQ" name="dog" ordered="false" lowerBound="1" eType="_cnKlKXMtEeqT-KT9j4SolQ"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_cnKlJ3MtEeqT-KT9j4SolQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_cnKlKXMtEeqT-KT9j4SolQ" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cnKlKnMtEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_cnKlK3MtEeqT-KT9j4SolQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_x6i4oHMsEeqT-KT9j4SolQ" name="Demo" nsURI="http:///schemas/Demo/_x6dZEHMsEeqT-KT9j4SolQ/13" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x6kt1HMsEeqT-KT9j4SolQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x6kt1XMsEeqT-KT9j4SolQ" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x6kt1nMsEeqT-KT9j4SolQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x6kt13MsEeqT-KT9j4SolQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x6kt2HMsEeqT-KT9j4SolQ" key="Date" value="20-3-31 下午4:51"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x6kt2XMsEeqT-KT9j4SolQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x6i4oXMsEeqT-KT9j4SolQ" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x6i4onMsEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_x6i4o3MsEeqT-KT9j4SolQ" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_x6i4pXMsEeqT-KT9j4SolQ" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_x6i4p3MsEeqT-KT9j4SolQ" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_x6i4qXMsEeqT-KT9j4SolQ" name="dog" ordered="false" lowerBound="1" eType="_x6i4q3MsEeqT-KT9j4SolQ"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x6i4q3MsEeqT-KT9j4SolQ" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x6i4rHMsEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_x6i4rXMsEeqT-KT9j4SolQ" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_x6i4r3MsEeqT-KT9j4SolQ" name="Hello">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x6i4sHMsEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_x6i4sXMsEeqT-KT9j4SolQ" name="base_Class" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_x6i4s3MsEeqT-KT9j4SolQ" name="newProperty" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_XHCCkXMbEeqaGcmvOcTEYw" name="Demo" nsURI="http:///schemas/Demo/_XHCCkHMbEeqaGcmvOcTEYw/12" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XHDQs3MbEeqaGcmvOcTEYw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHDQtHMbEeqaGcmvOcTEYw" key="Version" value="0.0.13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHDQtXMbEeqaGcmvOcTEYw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHDQtnMbEeqaGcmvOcTEYw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHDQt3MbEeqaGcmvOcTEYw" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XHDQuHMbEeqaGcmvOcTEYw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XHCCknMbEeqaGcmvOcTEYw" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XHCCk3MbEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_XHCClHMbEeqaGcmvOcTEYw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_XHCClnMbEeqaGcmvOcTEYw" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_XHCCmHMbEeqaGcmvOcTEYw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_XHCCmnMbEeqaGcmvOcTEYw" name="dog" ordered="false" lowerBound="1" eType="_XHCCnHMbEeqaGcmvOcTEYw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_XHCCnHMbEeqaGcmvOcTEYw" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XHCCnXMbEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_XHCCnnMbEeqaGcmvOcTEYw" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_NfRa8HMXEeqaGcmvOcTEYw" name="Demo" nsURI="http:///schemas/Demo/_NfQz4HMXEeqaGcmvOcTEYw/11" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NfSCBXMXEeqaGcmvOcTEYw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NfSCBnMXEeqaGcmvOcTEYw" key="Version" value="0.0.12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NfSCB3MXEeqaGcmvOcTEYw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NfSCCHMXEeqaGcmvOcTEYw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NfSCCXMXEeqaGcmvOcTEYw" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NfSCCnMXEeqaGcmvOcTEYw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_NfRa8XMXEeqaGcmvOcTEYw" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NfRa8nMXEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_NfRa83MXEeqaGcmvOcTEYw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_NfRa9XMXEeqaGcmvOcTEYw" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_NfRa93MXEeqaGcmvOcTEYw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_NfRa-XMXEeqaGcmvOcTEYw" name="dog" ordered="false" lowerBound="1" eType="_NfRa-3MXEeqaGcmvOcTEYw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_NfRa-3MXEeqaGcmvOcTEYw" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NfRa_HMXEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_NfRa_XMXEeqaGcmvOcTEYw" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_NfRa_3MXEeqaGcmvOcTEYw" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NfRbAHMXEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_NfRbAXMXEeqaGcmvOcTEYw" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_NfRbA3MXEeqaGcmvOcTEYw" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_NfRbBXMXEeqaGcmvOcTEYw" name="age" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_Jecp0HMXEeqaGcmvOcTEYw" name="Demo" nsURI="http:///schemas/Demo/_Jea0oHMXEeqaGcmvOcTEYw/10" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JeefBHMXEeqaGcmvOcTEYw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JeefBXMXEeqaGcmvOcTEYw" key="Version" value="0.0.11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JeefBnMXEeqaGcmvOcTEYw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JeefB3MXEeqaGcmvOcTEYw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JeefCHMXEeqaGcmvOcTEYw" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JeefCXMXEeqaGcmvOcTEYw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Jecp0XMXEeqaGcmvOcTEYw" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jecp0nMXEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Jecp03MXEeqaGcmvOcTEYw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Jecp1XMXEeqaGcmvOcTEYw" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Jecp13MXEeqaGcmvOcTEYw" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Jecp2XMXEeqaGcmvOcTEYw" name="dog" ordered="false" lowerBound="1" eType="_Jecp23MXEeqaGcmvOcTEYw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Jecp23MXEeqaGcmvOcTEYw" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jecp3HMXEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Jecp3XMXEeqaGcmvOcTEYw" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_Jecp33MXEeqaGcmvOcTEYw" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jecp4HMXEeqaGcmvOcTEYw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Jecp4XMXEeqaGcmvOcTEYw" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_Jecp43MXEeqaGcmvOcTEYw" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_Jecp5XMXEeqaGcmvOcTEYw" name="nams" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_5y9BUHMWEeqhPM8Tgagodg" name="Demo" nsURI="http:///schemas/Demo/_5y8aQHMWEeqhPM8Tgagodg/9" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5y9oZXMWEeqhPM8Tgagodg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5y9oZnMWEeqhPM8Tgagodg" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5y9oZ3MWEeqhPM8Tgagodg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5y9oaHMWEeqhPM8Tgagodg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5y9oaXMWEeqhPM8Tgagodg" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5y9oanMWEeqhPM8Tgagodg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5y9BUXMWEeqhPM8Tgagodg" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5y9BUnMWEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5y9BU3MWEeqhPM8Tgagodg" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5y9BVXMWEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_5y9BV3MWEeqhPM8Tgagodg" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5y9BWXMWEeqhPM8Tgagodg" name="dog" ordered="false" lowerBound="1" eType="_5y9BW3MWEeqhPM8Tgagodg"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5y9BW3MWEeqhPM8Tgagodg" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5y9BXHMWEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_5y9BXXMWEeqhPM8Tgagodg" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5y9BX3MWEeqhPM8Tgagodg" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5y9BYHMWEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5y9BYXMWEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5y9BY3MWEeqhPM8Tgagodg" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_FE99kHMWEeqhPM8Tgagodg" name="Demo" nsURI="http:///schemas/Demo/_FE9WgHMWEeqhPM8Tgagodg/8" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FE-koHMWEeqhPM8Tgagodg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FE-koXMWEeqhPM8Tgagodg" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FE-konMWEeqhPM8Tgagodg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FE-ko3MWEeqhPM8Tgagodg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FE-kpHMWEeqhPM8Tgagodg" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FE-kpXMWEeqhPM8Tgagodg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FE99kXMWEeqhPM8Tgagodg" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FE99knMWEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FE99k3MWEeqhPM8Tgagodg" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FE99lXMWEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FE99l3MWEeqhPM8Tgagodg" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FE99mXMWEeqhPM8Tgagodg" name="dog" ordered="false" lowerBound="1" eType="_FE99m3MWEeqhPM8Tgagodg"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FE99m3MWEeqhPM8Tgagodg" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FE99nHMWEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_FE99nXMWEeqhPM8Tgagodg" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_FE99n3MWEeqhPM8Tgagodg" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FE99oHMWEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_FE99oXMWEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_skPZwHMVEeqhPM8Tgagodg" name="Demo" nsURI="http:///schemas/Demo/_skOysHMVEeqhPM8Tgagodg/7" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_skQn4HMVEeqhPM8Tgagodg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_skQn4XMVEeqhPM8Tgagodg" key="Version" value="0.0.8"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_skQn4nMVEeqhPM8Tgagodg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_skQn43MVEeqhPM8Tgagodg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_skQn5HMVEeqhPM8Tgagodg" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_skQn5XMVEeqhPM8Tgagodg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_skPZwXMVEeqhPM8Tgagodg" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_skPZwnMVEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_skPZw3MVEeqhPM8Tgagodg" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_skPZxXMVEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_skPZx3MVEeqhPM8Tgagodg" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_skPZyXMVEeqhPM8Tgagodg" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_skPZynMVEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_skPZy3MVEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_skPZzXMVEeqhPM8Tgagodg" name="Dog">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_skPZznMVEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_skPZz3MVEeqhPM8Tgagodg" name="names" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_hh7i4HMVEeqhPM8Tgagodg" name="Demo" nsURI="http:///schemas/Demo/_hh670HMVEeqhPM8Tgagodg/6" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hh7i8HMVEeqhPM8Tgagodg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hh7i8XMVEeqhPM8Tgagodg" key="Version" value="0.0.7"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hh7i8nMVEeqhPM8Tgagodg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hh7i83MVEeqhPM8Tgagodg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hh7i9HMVEeqhPM8Tgagodg" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hh7i9XMVEeqhPM8Tgagodg" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_hh7i4XMVEeqhPM8Tgagodg" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hh7i4nMVEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hh7i43MVEeqhPM8Tgagodg" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hh7i5XMVEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_hh7i53MVEeqhPM8Tgagodg" name="name" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_hh7i6XMVEeqhPM8Tgagodg" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hh7i6nMVEeqhPM8Tgagodg" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_hh7i63MVEeqhPM8Tgagodg" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_5JfU8HMTEeqA1-xSi0jkyw" name="Demo" nsURI="http:///schemas/Demo/_5JbDgHMTEeqA1-xSi0jkyw/5" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5JhKI3MTEeqA1-xSi0jkyw" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5JhKJHMTEeqA1-xSi0jkyw" key="Version" value="0.0.6"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5JhKJXMTEeqA1-xSi0jkyw" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5JhKJnMTEeqA1-xSi0jkyw" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5JhKJ3MTEeqA1-xSi0jkyw" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5JhKKHMTEeqA1-xSi0jkyw" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5JfU8XMTEeqA1-xSi0jkyw" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5JfU8nMTEeqA1-xSi0jkyw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5JfU83MTEeqA1-xSi0jkyw" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5JfU9XMTEeqA1-xSi0jkyw" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5JfU93MTEeqA1-xSi0jkyw" name="name" ordered="false" lowerBound="1" eType="_5JfU-XMTEeqA1-xSi0jkyw"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5JfU-XMTEeqA1-xSi0jkyw" name="Name">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5JfU-nMTEeqA1-xSi0jkyw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_5JfU-3MTEeqA1-xSi0jkyw" name="age" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_5JfU_XMTEeqA1-xSi0jkyw" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5JfU_nMTEeqA1-xSi0jkyw" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_5JfU_3MTEeqA1-xSi0jkyw" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_KKqzcXMTEeqGrKWe4KBK3w" name="Demo" nsURI="http:///schemas/Demo/_KKqzcHMTEeqGrKWe4KBK3w/4" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KKrag3MTEeqGrKWe4KBK3w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KKrahHMTEeqGrKWe4KBK3w" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KKrahXMTEeqGrKWe4KBK3w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KKrahnMTEeqGrKWe4KBK3w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KKrah3MTEeqGrKWe4KBK3w" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KKraiHMTEeqGrKWe4KBK3w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KKqzcnMTEeqGrKWe4KBK3w" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KKqzc3MTEeqGrKWe4KBK3w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_KKqzdHMTEeqGrKWe4KBK3w" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_KKqzdnMTEeqGrKWe4KBK3w" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KKqzeHMTEeqGrKWe4KBK3w" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KKqzeXMTEeqGrKWe4KBK3w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_KKqzenMTEeqGrKWe4KBK3w" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_KKqzfHMTEeqGrKWe4KBK3w" name="Name">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KKqzfXMTEeqGrKWe4KBK3w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_KKqzfnMTEeqGrKWe4KBK3w" name="age" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_9vd-YHMPEeqGrKWe4KBK3w" name="Demo" nsURI="http:///schemas/Demo/_9vaUAHMPEeqGrKWe4KBK3w/3" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9velc3MPEeqGrKWe4KBK3w" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9veldHMPEeqGrKWe4KBK3w" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9veldXMPEeqGrKWe4KBK3w" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9veldnMPEeqGrKWe4KBK3w" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9veld3MPEeqGrKWe4KBK3w" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9veleHMPEeqGrKWe4KBK3w" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_9vd-YXMPEeqGrKWe4KBK3w" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9vd-YnMPEeqGrKWe4KBK3w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9vd-Y3MPEeqGrKWe4KBK3w" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9vd-ZXMPEeqGrKWe4KBK3w" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_9vd-Z3MPEeqGrKWe4KBK3w" name="Chao">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9vd-aHMPEeqGrKWe4KBK3w" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_9vd-aXMPEeqGrKWe4KBK3w" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_0Qn60XMOEeqkAaz0mqOJog" name="Demo" nsURI="http:///schemas/Demo/_0Qn60HMOEeqkAaz0mqOJog/2" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0Qn62nMOEeqkAaz0mqOJog" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Qn623MOEeqkAaz0mqOJog" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Qn63HMOEeqkAaz0mqOJog" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Qn63XMOEeqkAaz0mqOJog" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Qn63nMOEeqkAaz0mqOJog" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Qoh4HMOEeqkAaz0mqOJog" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_0Qn60nMOEeqkAaz0mqOJog" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0Qn603MOEeqkAaz0mqOJog" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0Qn61HMOEeqkAaz0mqOJog" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_0Qn61nMOEeqkAaz0mqOJog" name="base_State" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//State"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_CMxiEXMOEeqkAaz0mqOJog" name="Demo" nsURI="http:///schemas/Demo/_CMxiEHMOEeqkAaz0mqOJog/1" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CMxiF3MOEeqkAaz0mqOJog" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CMxiGHMOEeqkAaz0mqOJog" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CMxiGXMOEeqkAaz0mqOJog" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CMxiGnMOEeqkAaz0mqOJog" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CMxiG3MOEeqkAaz0mqOJog" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CMxiHHMOEeqkAaz0mqOJog" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_CMxiEnMOEeqkAaz0mqOJog" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CMxiE3MOEeqkAaz0mqOJog" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_CMxiFHMOEeqkAaz0mqOJog" name="base_Element" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_3K3T0XMNEeqkAaz0mqOJog" name="Demo" nsURI="http:///schemas/Demo/_3K2swHMNEeqkAaz0mqOJog/0" nsPrefix="Demo">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3K3T1HMNEeqkAaz0mqOJog" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3K3T1XMNEeqkAaz0mqOJog" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3K3T1nMNEeqkAaz0mqOJog" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3K3T13MNEeqkAaz0mqOJog" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3K3T2HMNEeqkAaz0mqOJog" key="Date" value="2020-03-31"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3K3T2XMNEeqkAaz0mqOJog" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_3K3T0nMNEeqkAaz0mqOJog" name="Tan">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3K3T03MNEeqkAaz0mqOJog" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_AcAvEHMOEeqkAaz0mqOJog" alias="Element">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+  </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_yCpAUHMOEeqkAaz0mqOJog" alias="State">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#State"/>
+  </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_x6WrYHMsEeqT-KT9j4SolQ">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qNW7kHMNEeqkAaz0mqOJog">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_qNYwwHMNEeqkAaz0mqOJog">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_ovwnQHMwEeqfluIfrMVc4g" name="Tan">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u_pQ8HMwEeqfluIfrMVc4g" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yNee4XMwEeqfluIfrMVc4g" name="base_Element" association="_yNcCoHMwEeqfluIfrMVc4g">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yNee4nMwEeqfluIfrMVc4g"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6xypUHMwEeqfluIfrMVc4g" name="dog" type="_z5ps0HMwEeqfluIfrMVc4g" association="_6xtJwHMwEeqfluIfrMVc4g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qvyOMHNEEeqNy-_D6E1ehw" name="cat" type="_kJ6GYHNEEeqNy-_D6E1ehw" association="_qvwZAHNEEeqNy-_D6E1ehw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_yNcCoHMwEeqfluIfrMVc4g" name="E_Tan_Element9" memberEnd="_yNee4HMwEeqfluIfrMVc4g _yNee4XMwEeqfluIfrMVc4g">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_yNee4HMwEeqfluIfrMVc4g" name="extension_Tan" type="_ovwnQHMwEeqfluIfrMVc4g" aggregation="composite" association="_yNcCoHMwEeqfluIfrMVc4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_z5ps0HMwEeqfluIfrMVc4g" name="Dog">
+    <generalization xmi:type="uml:Generalization" xmi:id="__NwbUHNREeqcfc7b4gNK6w" general="_DjOcMHNREeqcfc7b4gNK6w"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_3nlXIHMwEeqfluIfrMVc4g" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6xtJwHMwEeqfluIfrMVc4g" memberEnd="_6xypUHMwEeqfluIfrMVc4g _6x5-EHMwEeqfluIfrMVc4g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6xvmAHMwEeqfluIfrMVc4g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6xvmAXMwEeqfluIfrMVc4g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_6x5-EHMwEeqfluIfrMVc4g" name="tan" type="_ovwnQHMwEeqfluIfrMVc4g" association="_6xtJwHMwEeqfluIfrMVc4g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_kJ6GYHNEEeqNy-_D6E1ehw" name="Cat">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_81f2YHNEEeqNy-_D6E1ehw" name="base_Element" association="_81aW0HNEEeqNy-_D6E1ehw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_81f2YXNEEeqNy-_D6E1ehw"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qvwZAHNEEeqNy-_D6E1ehw" memberEnd="_qvyOMHNEEeqNy-_D6E1ehw _qvy1QHNEEeqNy-_D6E1ehw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qvxnIHNEEeqNy-_D6E1ehw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qvxnIXNEEeqNy-_D6E1ehw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qvy1QHNEEeqNy-_D6E1ehw" name="tan" type="_ovwnQHMwEeqfluIfrMVc4g" association="_qvwZAHNEEeqNy-_D6E1ehw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_81aW0HNEEeqNy-_D6E1ehw" name="E_Cat_Element14" memberEnd="_81eoQHNEEeqNy-_D6E1ehw _81f2YHNEEeqNy-_D6E1ehw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_81eoQHNEEeqNy-_D6E1ehw" name="extension_Cat" type="_kJ6GYHNEEeqNy-_D6E1ehw" aggregation="composite" association="_81aW0HNEEeqNy-_D6E1ehw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_DjOcMHNREeqcfc7b4gNK6w" name="Dog1">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Ig0-oHNREeqcfc7b4gNK6w" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_x6lU4HMsEeqT-KT9j4SolQ" appliedProfile="_qI55YHMNEeqkAaz0mqOJog">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_d0u5UL99Eeqk1I1evsVzTQ" source="PapyrusVersion">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d0u5Ub99Eeqk1I1evsVzTQ" key="Version" value="0.0.16"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d0u5Ur99Eeqk1I1evsVzTQ" key="Comment" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d0u5U799Eeqk1I1evsVzTQ" key="Copyright" value=""/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d0u5VL99Eeqk1I1evsVzTQ" key="Date" value="2020-04-03"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_d0u5Vb99Eeqk1I1evsVzTQ" key="Author" value=""/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x6l78HMsEeqT-KT9j4SolQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_ZeQwIHXCEeqhgtg3PXRHrQ"/>
+  </profileApplication>
+</uml:Profile>

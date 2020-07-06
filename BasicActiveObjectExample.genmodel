@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/uml2/2.2.0/GenModel"
+    modelDirectory="/Demo/src" modelPluginID="Demo" modelName="BasicActiveObjectExample"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.uml2.uml.ecore.importer"
+    complianceLevel="8.0" copyrightFields="false" usedGenPackages="../org.eclipse.uml2.types/model/Types.genmodel#//types"
+    operationReflection="true" importOrganizing="true">
+  <genAnnotations source="http://www.eclipse.org/emf/2002/GenModel/importer/org.eclipse.uml2.uml.ecore.importer">
+    <details key="OPPOSITE_ROLE_NAMES" value="PROCESS"/>
+    <details key="DUPLICATE_FEATURES" value="PROCESS"/>
+    <details key="ANNOTATION_DETAILS" value="PROCESS"/>
+    <details key="PROPERTY_DEFAULT_EXPRESSIONS" value="PROCESS"/>
+    <details key="DUPLICATE_FEATURE_INHERITANCE" value="PROCESS"/>
+    <details key="COMMENTS" value="PROCESS"/>
+    <details key="DERIVED_FEATURES" value="PROCESS"/>
+    <details key="SUPER_CLASS_ORDER" value="PROCESS"/>
+    <details key="DUPLICATE_OPERATION_INHERITANCE" value="PROCESS"/>
+    <details key="REDEFINING_OPERATIONS" value="PROCESS"/>
+    <details key="INVARIANT_CONSTRAINTS" value="PROCESS"/>
+    <details key="UNION_PROPERTIES" value="PROCESS"/>
+    <details key="DUPLICATE_OPERATIONS" value="PROCESS"/>
+    <details key="NON_API_INVARIANTS" value="PROCESS"/>
+    <details key="CAMEL_CASE_NAMES" value="PROCESS"/>
+    <details key="SUBSETTING_PROPERTIES" value="PROCESS"/>
+    <details key="OPERATION_BODIES" value="PROCESS"/>
+    <details key="ECORE_TAGGED_VALUES" value="PROCESS"/>
+    <details key="UNTYPED_PROPERTIES" value="PROCESS"/>
+    <details key="REDEFINING_PROPERTIES" value="PROCESS"/>
+    <details key="INVOCATION_DELEGATES" value="PROCESS"/>
+    <details key="VALIDATION_DELEGATES" value="PROCESS"/>
+  </genAnnotations>
+  <foreignModel>BasicActiveObjectExample.uml</foreignModel>
+  <genPackages xsi:type="genmodel:GenPackage" prefix="Model" disposableProviderFactory="true"
+      ecorePackage="model.ecore#/">
+    <nestedGenPackages xsi:type="genmodel:GenPackage" prefix="BasicActiveObjectExample"
+        disposableProviderFactory="true" ecorePackage="model.ecore#//basicActiveObjectExample">
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/Increment">
+        <genFeatures xsi:type="genmodel:GenFeature" createChild="false" ecoreFeature="ecore:EAttribute model.ecore#//basicActiveObjectExample/Increment/counter"/>
+        <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model.ecore#//basicActiveObjectExample/Increment/increment"/>
+        <genOperations xsi:type="genmodel:GenOperation" ecoreOperation="model.ecore#//basicActiveObjectExample/Increment/increment.1"/>
+      </genClasses>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/Increment_IncrementClassifierBehavior"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/Increment_IncrementMethod"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/Increment_IncrementFactory"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/Increment_HelloBehavior"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/HelloBehavior_StateMachine1"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/Increment_Activity9"/>
+      <genClasses xsi:type="genmodel:GenClass" ecoreClass="model.ecore#//basicActiveObjectExample/Increment_Activity8"/>
+    </nestedGenPackages>
+  </genPackages>
+</genmodel:GenModel>
